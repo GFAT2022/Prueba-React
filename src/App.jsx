@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./Page/Home";
 import {Galeria} from"./Page/Galeria";
-import { CartWidget } from "./Components/components/CartWidget";
+import { CarritoCompra } from "./Page/CarritoCompra";
+import{Fotografias} from "./Components/Arrays/Fotografias"
 
 
 
@@ -13,6 +14,7 @@ function App() {
 
     return(
       <>
+      <Fotografias/>
       
       {/* <ItemLisContainer/> */}
       {/* <NavBar/> */}
@@ -31,7 +33,7 @@ function App() {
             <Routes>
                 <Route path="/"element={<Home/>}/>
                 <Route path="/galeri" element={<Galeria/>}/>
-                <Route path="/carrite" element={<CartWidget/>}/>
+                <Route path="/carrite" element={<CarritoCompra/>}/>
             </Routes>
         </BrowserRouter>
 
