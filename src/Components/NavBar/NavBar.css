@@ -8,22 +8,30 @@
     height: 16vh;
     background-color: rgb(2, 32, 32);
     color: white;  
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; 
     font-family: Arial, Helvetica, sans-serif;
+    
   }
 
   .navUl {
+    display: flex;
     list-style-type: none;
     margin: 0; 
-    padding: 0; 
-    display: flex;   
+    padding: 0;    
     gap: 20px; 
+  }
+
+  .li-stile{
+    padding: 0 1rem;
   }
 
 a{
     color: white; 
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
+
+.contenedor-fotografias{
+  background-color: aqua;
+}
