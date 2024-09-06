@@ -1,0 +1,54 @@
+img{
+    max-width: 300px;
+}
+
+.masInfo{
+
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f15e1f; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.masInfo:hover {
+    background-color: #b92d0a; 
+  }
+.main-prod{
+
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+article{
+
+    background-color: rgb(240, 180, 103);
+    text-align: center;
+
+}
+
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    height: 80vh;    
+
+}
+
+.detalle-img{
+    max-width: 600px;
+}

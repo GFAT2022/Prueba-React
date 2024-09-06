@@ -1,25 +1,25 @@
-
-
-
+import "./Fotografias.css";
 import { Link } from "react-router-dom";
-import {Fotografias} from "./data.js"
+import {fotografias} from "./data"
 
-function pordFotos(){
+
+function ProdFotos(){
     return(
-        <main>
-            <h1>Productos</h1>
-            <div>
-                {Fotografias.map((producto)=>{
+        <main className="main-prod">
+        
+                {fotografias.map((foto)=>{
+                    console.log(foto)
                     return (
-                        <article key={Fotografias.id}>
-                            <h4>{Fotografias.title}</h4>
-                            <img src={Fotografias.image}/>
-                            <Link to={`productos/${Fotografias.id}`} >Mas info</Link>                            
+                        <article key={foto.id}>
+                            <h4>{foto.nombre}</h4>
+                            <img src={foto.img} />
+                            <h4>Precio: ${foto.precio}</h4>
+                            <Link className="masInfo" to={`productoFot/${foto.id}`} >Mas info</Link>                            
                         </article>
                     )
                 })}
-            </div>
+         
         </main>
     )
 }
-export default pordFotos;
+export default ProdFotos;

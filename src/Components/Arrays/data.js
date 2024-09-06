@@ -1,90 +1,97 @@
-const fotografias = [
+import img1 from "../../Image/imag1.jpg";
+import img2 from "../../Image/imag2.jpg";
+import img3 from "../../Image/imag3.jpg";
+import img4 from "../../Image/imag4.jpg";
+import img5 from "../../Image/imag5.jpg";
+import img6 from "../../Image/imag6.jpg";
+import img7 from "../../Image/imag7.jpg";
+import img8 from "../../Image/imag8.jpg";
+
+export const fotografias = [
     {
         id:1,
         nombre: "Aurora Music",
         precio: 3200,
-        img: './imagenes/imag1.jpg',
-        cantidad: 1,
-        
+        img: img1,
+        cantidad: 1,  
     },
     {
         id:2,
         nombre: "Tierra del Fuego",
         precio: 2200,
-        img: './imagenes/imag2.jpg',
+        img: img2,
         cantidad: 1,
     },
     {
         id:3,
         nombre: "Apicultura",
         precio: 5230,
-        img: './imagenes/imag3.jpg',
+        img: img3,
         cantidad: 1,
     },
     {
         id:4,
         nombre: "Cataratas Iguazu",
         precio: 2430,
-        img: './imagenes/imag4.jpg',
+        img: img4,
         cantidad: 1,
     },
     {
         id:5,
         nombre: "Otoño",
         precio: 3021,
-        img: './imagenes/imag5.jpg',
+        img: img5,
         cantidad: 1,   
     },
     {
         id:6,
         nombre: "Arte Urbano",
         precio: 1236,
-        img: './imagenes/imag6.jpg',
+        img: img6,
         cantidad: 1,
     },
     {
         id:7,
         nombre: "Musica en Vivo",
         precio: 1820,
-        img: './imagenes/imag7.jpg',
+        img: img7,
         cantidad: 1,
     },
     {
         id:8,
         nombre: "La Pedrera",
         precio: 5203,
-        img: './imagenes/imag8.jpg',
+        img: img8,
         cantidad: 1,
     },
-    {
-        id:9,
-        nombre: "Aurora Banda",
-        precio: 4632,
-        img: './imagenes/imag9.jpg',
-        cantidad: 1,
-    },
-    {
-        id:10,
-        nombre: "Laguna de Rocha",
-        precio: 2879,
-        img: './imagenes/imag10.jpg',
-        cantidad: 1,
-    },
-    {
-        id:11,
-        nombre: "Puerto Piriapolis",
-        precio: 864,
-        img: './imagenes/imag11.jpg',
-        cantidad: 1,
-    },
-    {
-        id:12,
-        nombre: "Jasmin",
-        precio: 1500,
-        img: './imagenes/imag12.jpg',
-        cantidad: 1,
-    },
+    // {
+    //     id:9,
+    //     nombre: "Aurora Banda",
+    //     precio: 4632,
+    //     img: './Image/imag9.jpg',
+    //     cantidad: 1,
+    // },
+    // {
+    //     id:10,
+    //     nombre: "Laguna de Rocha",
+    //     precio: 2879,
+    //     img: './Image/imag10.jpg',
+    //     cantidad: 1,
+    // },
+    // {
+    //     id:11,
+    //     nombre: "Puerto Piriapolis",
+    //     precio: 864,
+    //     img: './Image/imag11.jpg',
+    //     cantidad: 1,
+    // },
+    // {
+    //     id:12,
+    //     nombre: "Jasmin",
+    //     precio: 1500,
+    //     img: './Image/imag12.jpg',
+    //     cantidad: 1,
+    // },
    
 ];
 
-export default fotografias
